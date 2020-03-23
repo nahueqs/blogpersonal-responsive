@@ -8,6 +8,11 @@
         display: block;
     }
 
+    [class*="col-"]{
+        float:left;
+        padding: 15px;
+    }
+
     #aboutme {
         text-align: center;
     }
@@ -17,11 +22,6 @@
         position: relative;
         width: 100%;    
         margin: auto;
-    }
-
-    [class*="col-"]{
-        float:left;
-        padding: 15px;
     }
 
     .fila::after {
@@ -62,10 +62,7 @@
 
     @media only screen and (max-width: 600px){
         /*Extra small*/
-        .col-0:{
-            display: none;
-            padding: 0;
-        }
+        .col-0:{display: none;}
         .col-1 {width: 8.33%;}
         .col-2 {width: 16.66%;}
         .col-3 {width: 25%;}
@@ -81,10 +78,7 @@
     }
     @media only screen and (min-width: 600px) {
         /*small portrait tablets and large phones, 600px and up */
-        .col-sm-0:{
-            display: none;
-            padding: 0;
-        }
+        .col-sm-0:{display: none;}
         .col-sm-1 {width: 8.33%;}
         .col-sm-2 {width: 16.66%;}
         .col-sm-3 {width: 25%;}
@@ -101,10 +95,7 @@
     
     @media only screen and (min-width: 768px) {
         /*medium landscape tablets, 768px and up*/
-        .col-md-0:{
-            display: none;
-            padding: 0;
-        }
+        .col-md-0:{display: none;}
         .col-md-1 {width: 8.33%;}
         .col-md-2 {width: 16.66%;}
         .col-md-3 {width: 25%;}
@@ -121,10 +112,7 @@
 
     @media only screen and (min-width: 992px) {
         /*large laptops/desktops, 992px and up)*/
-        .col-lg-0:{
-            display: none;
-            padding: 0;
-        }
+        .col-lg-0:{display: none;}
         .col-lg-1 {width: 8.33%;}
         .col-lg-2 {width: 16.66%;}
         .col-lg-3 {width: 25%;}
@@ -141,9 +129,7 @@
 
     @media only screen and (min-width: 1200px) {
         /*Extra large large laptops and desktops, 1200px and up*/
-        .col-xl-0:{
-            display: none;
-            padding: 0;}
+        .col-xl-0:{display: none;}
         .col-xl-1 {width: 8.33%;}
         .col-xl-2 {width: 16.66%;}
         .col-xl-3 {width: 25%;}
