@@ -4,14 +4,11 @@
         padding: 0;
     }  
 
-    hgroup, aside, header, section{
+    hgroup, aside, header, figure, section{
         display: block;
     }
 
-    [class*="col-"]{
-        float:left;
-        padding: 15px;
-    }
+ 
 
     #aboutme {
         text-align: center;
@@ -37,6 +34,8 @@
         height: auto;
         border-radius: 100%;
     }
+
+
 
     header hgroup {
         text-align: center;
@@ -142,4 +141,9 @@
         .col-xl-10 {width: 83.33%;}
         .col-xl-11 {width: 91.66%;}
         .col-xl-12 {width: 100%;}
+    }
+
+    [class*="col-"]{
+        float:left;
+        padding: 15px;
     }
