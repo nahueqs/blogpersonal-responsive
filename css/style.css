@@ -55,7 +55,7 @@
     }
 
     #separador{
-        height: 0.9px;
+        height: 1px;
         width: 80%;
         margin: auto;
         padding: 0.1px;
@@ -63,14 +63,20 @@
     }
 
     .iconoskills {
+        max-width: 30%;
+        height: auto;
+    }
+
+    .iconosintpersonales{
         max-width: 10%;
         height: auto;
     }
 
-    .iconosinteresespersonales{
-        max-width: 10%;
-        height: auto;
-    }
+   #skills article{
+       text-align: center;
+       
+   }
+
     /*propiedades globales de las columnas*/
 
     /* For mobile phones: */
